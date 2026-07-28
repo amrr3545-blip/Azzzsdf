@@ -526,7 +526,7 @@ def handle_file(message):
         )
         
         bot.edit_message_text(f"🔍 جاري فحص: {card[:10]}...\n✅ AUTH: {good_auth}\n💰 $3: {good_3d}", user_id, status_msg.message_id, reply_markup=markup, parse_mode='HTML')
-        time.sleep(2)
+        time.sleep(10)
     
     final = f"""
 ✅ <b>COMPLETED</b>
